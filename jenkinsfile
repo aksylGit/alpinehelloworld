@@ -33,7 +33,9 @@ pipeline {
 			agent any
 			steps {
 				script {
-					curl http://localost | grep -q "hello world!"
+					sh '''
+					curl http://localhost | grep -q "hello world!"
+					'''
 				}
 			}
 		}
