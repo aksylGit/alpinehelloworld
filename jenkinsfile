@@ -70,7 +70,7 @@ pipeline {
 						heroku container:release - a $STAGING web
 						'''
 				}
-				
+				}
 			}
 			
 			stage ('push image in Production and deploy it') {
@@ -95,5 +95,3 @@ pipeline {
 			}
 		}
 	}
-}
-}
