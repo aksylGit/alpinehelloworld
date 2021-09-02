@@ -2,8 +2,8 @@ pipeline {
 	environment{
 		IMAGE_NAME = "alpinehelloworld"
 		IMAGE_TAG  = "latest"
-		STAGING    = "Yacine-staging"
-		PRODUCTION = "Yacine-production"
+		STAGING    = "yacine-staging"
+		PRODUCTION = "yacine-production"
 	}
 	agent none
 	stages {
